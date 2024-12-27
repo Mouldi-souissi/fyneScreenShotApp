@@ -21,11 +21,6 @@ dist/
 
 # Go specific
 *.test
-*.prof
-*.cover
-*.mod
-*.sum
-*.db
 
 # Fyne app-specific
 fyne.lock          # Lock file for Fyne packaging
