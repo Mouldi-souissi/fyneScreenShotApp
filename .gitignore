@@ -1,0 +1,42 @@
+# Binaries for programs and apps
+*.exe
+*.dll
+*.so
+*.dylib
+*.app
+*.out
+
+# Log files
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+/vendor/
+bin/
+build/
+dist/
+
+# Go specific
+*.test
+*.prof
+*.cover
+*.mod
+*.sum
+*.db
+
+# Fyne app-specific
+fyne.lock          # Lock file for Fyne packaging
+fyne_bundle.go     # Generated resource bundle file
+*.fyne             # Temporary files created during packaging
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.iml
+*.code-workspace
+
+# Environment files
+.env
